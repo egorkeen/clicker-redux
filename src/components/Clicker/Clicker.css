@@ -1,0 +1,30 @@
+.clicker {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.clicker__title {
+  font-size: 34px;
+}
+
+.clicker__button-container {
+  display: flex;
+  gap: 40px;
+}
+
+.clicker__button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(146, 146, 146);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  transition: .1s linear;
+}
+
+.clicker__button:hover {
+  opacity: .8;
+}
